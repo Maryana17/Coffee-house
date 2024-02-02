@@ -633,7 +633,7 @@ h1 {
     border-radius: 100px;
     background: var(--border-light, #C1B6AD);
 }
-.page-wait {
+.page-wait, .page-wait a {
     color: var(--text-dark, #403F3D);
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: 'Inter';
@@ -641,6 +641,7 @@ h1 {
     font-style: normal;
     font-weight: 600;
     line-height: 150%; /* 24px */
+    text-decoration: none;
 }
 .menu-galery {
     display: flex;
