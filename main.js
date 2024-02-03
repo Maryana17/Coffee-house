@@ -1,3 +1,15 @@
+/* MENU BTN */
+const btnMenu = document.querySelector('.button-menu')
+const btnMenuImg = document.querySelector('.button-menu img')
+
+btnMenu.addEventListener('mouseover',() => {
+    btnMenuImg.style.display = 'flex';
+})
+btnMenu.addEventListener('mouseout',() => {
+    btnMenuImg.style.display = 'none';
+})
+
+/* BURGER */
 (function() {
 
 const burgerItem = document.querySelector('.burger-icon');
