@@ -1,4 +1,5 @@
 /* MENU BTN */
+try {
 const btnMenu = document.querySelector('.button-menu')
 const btnMenuImg = document.querySelector('.button-menu img')
 
@@ -8,6 +9,7 @@ btnMenu.addEventListener('mouseover',() => {
 btnMenu.addEventListener('mouseout',() => {
     btnMenuImg.style.display = 'none';
 })
+} catch (error){};
 
 /* BURGER */
 (function() {
